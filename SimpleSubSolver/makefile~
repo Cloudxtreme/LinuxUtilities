@@ -1,0 +1,4 @@
+SOURCES=Lab5Driver.C Employee.C
+CFLAGS=-g -Wall -o lab5
+all: $(SOURCES)
+	g++ $(CFLAGS) $(SOURCES)
